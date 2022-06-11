@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="All Test Suite" parallel="false">
+    <parameter name="browser" value="firefox"></parameter>
+    <test name="Registration">
+        <classes>
+            <class name="tests.CreateAccountTest"/>
+        </classes>
+    </test>
+
+    <test  name="Login">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+</suite>
